@@ -1,0 +1,9 @@
+//! Performance subsystems.
+pub mod aggregation;
+pub mod cache;
+pub mod pipeline;
+pub mod hedt;
+pub use aggregation::*;
+pub use cache::*;
+pub use pipeline::*;
+pub use hedt::*;
